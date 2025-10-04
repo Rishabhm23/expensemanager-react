@@ -4,8 +4,8 @@ import Home from "./pages/Home";
 import Income from "./pages/Income";
 import Expense from "./pages/Expense";
 import Category from "./pages/Category";
-import Login from "./pages/login";
-import Signup from "./pages/signup";
+import Login from "./pages/Login";
+import Signup from "./pages/Signup";
 import Filter from "./pages/Filter";
 import { Toaster } from "react-hot-toast";
 
