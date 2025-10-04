@@ -27,7 +27,7 @@ const Home = () => {
             }
         } catch (error) {
             console.log("Some error occured in dashboard");
-            toast.error(error.response?.data?.message || "Some error occured in dashboard");
+            //toast.error(error.response?.data?.message || "Some error occured in dashboard");
         } finally {
             setLoading(false);
         }
