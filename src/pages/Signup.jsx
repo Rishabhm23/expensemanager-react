@@ -7,6 +7,7 @@ import axiosConfig from "../util/axiosConfig";
 import { API_ENDPOINTS } from "../util/apiEndpoints";
 import { LoaderCircle } from "lucide-react";
 import uploadProfileImage from "../util/uploadProfileImage";
+import toast from "react-hot-toast";
 
 const Signup = () => {
 

@@ -9,6 +9,7 @@ import { API_ENDPOINTS } from "../util/apiEndpoints";
 import RecentTransactions from "../components/RecentTransactions"
 import Transactions from "../components/Transactions";
 import FinanceOverview from "../components/FinanceOverview";
+import toast from "react-hot-toast";
 const Home = () => {
     useUser();
     const navigate = useNavigate();

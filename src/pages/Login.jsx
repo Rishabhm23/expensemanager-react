@@ -7,6 +7,7 @@ import { validateEmail } from "../util/validation";
 import { API_ENDPOINTS } from "../util/apiEndpoints";
 import { AppContext } from "../context/AppContext";
 import { LoaderCircle } from "lucide-react";
+import toast from "react-hot-toast";
 
 const Login = () => {
 
