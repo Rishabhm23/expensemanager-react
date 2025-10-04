@@ -9,7 +9,7 @@ const axiosConfig = axios.create({
     }
 });
 
-const excludeEndpoints = ["/login","/status","/register","/health"]
+const excludeEndpoints = ["/login","/status","/register","/health", "/signup"]
 
 axiosConfig.interceptors.request.use((config) => {
     const shouldSkipToken = excludeEndpoints.some((endpoint) => {
