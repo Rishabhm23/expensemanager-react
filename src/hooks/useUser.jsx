@@ -33,4 +33,6 @@ export const useUser = () => {
             isMounted = false;
         }
     },[setUser, clearUser, navigate]);
+
+    return { user, setUser, clearUser };
 }
