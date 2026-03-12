@@ -1,4 +1,5 @@
-export const BASEURL ="https://expensemanager-spring-1-9aop.onrender.com/api/v1.0";
+//export const BASEURL ="https://expensemanager-spring-1-9aop.onrender.com/api/v1.0";
+export const BASEURL ="https://expensemanager-spring-production.up.railway.app/api/v1.0";
 //export const BASEURL ="http://localhost:8080/api/v1.0";
 const CLOUDNARY_CLOUD_NAME = "dgtfeezch";
 

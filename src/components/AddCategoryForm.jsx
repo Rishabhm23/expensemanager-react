@@ -43,12 +43,10 @@ const AddCategoryForm = ({onAddCategory, initialCategoryData, isEditing}) => {
     }
     return(
         <div className="p-4">
-
             <EmojiPickerPopup 
                 icon={category.icon}
                 onSelect={(selectedIcon) => handleChange("icon", selectedIcon)}
             />
-
             <Input
                 value={category.name}
                 onChange={({target}) => handleChange("name", target.value)}
@@ -56,7 +54,6 @@ const AddCategoryForm = ({onAddCategory, initialCategoryData, isEditing}) => {
                 placeholder="e.g., Freelance, Salary, Groceries"
                 type="text"
             />
-
             <Input
                 label="Category Type"
                 value={category.type}
@@ -64,10 +61,8 @@ const AddCategoryForm = ({onAddCategory, initialCategoryData, isEditing}) => {
                 isSelect={true}
                 options={categoryTypeOptions}
             />
-
             <div className="flex justify-end">
                 <button 
-                
                     type="button"
                     onClick={handleSubmit}
                     disabled={loading}
