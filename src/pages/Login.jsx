@@ -35,15 +35,14 @@ const Login = () => {
         setError("");
         try {
             const response = await axiosConfig.post(API_ENDPOINTS.LOGIN, {
-                email,
-                password,
-            });
-            const { token, user } = response.data;
-            if (token) {
-                localStorage.setItem("token", token);
-                setUser(user);
-                navigateFunciton("/dashboard");
-            }
+            email,
+            password,
+        });
+
+        const { user } = response.data;
+
+        setUser(user); 
+        navigateFunciton("/dashboard");
         } catch (err) {
             if (err.response && err.response.data.message) {
                 console.error(err.response.data.message);

@@ -4,9 +4,6 @@
 export const BASEURL = "https://80-225-216-93.sslip.io/api/v1.0";
 const CLOUDNARY_CLOUD_NAME = "dgtfeezch";
 
-
-
-
 export const API_ENDPOINTS = {
     LOGIN: "/login",
     REGISTERL: "/register",
